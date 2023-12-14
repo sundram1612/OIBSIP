@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #374353);
+}
+.calculator{
+    border:1px solid #717377;
+    padding:15px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115, 119, 0.5);
+}
+input{
+    width: 320px;
+    border:none;
+    padding:14px;
+    margin:10px;
+    background: transparent;
+    box-shadow: 0px 1px 25px rgba(208, 33, 33, 0.3);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+input::placeholder{
+    color: #ffffff;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #cce8ff;
+    box-shadow: -8px -8px 20px rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 22px;
+}
+button:hover{
+    transform: scale(1.1);
+    color: cornflowerblue;
+}
+.equalBtn{
+    background-color: #fb7c14;
+}
+.operator{
+    color: rgb(45, 212, 45);
+}
+.delBtn{
+    color: red;
+}
+.clearBtn{
+   color: red;
+}
+.clearBtn:hover{
+   background-color: #0a0a0a;
+}
+.delBtn:hover{
+   background-color: #0a0a0a;
+}
